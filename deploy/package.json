@@ -1,0 +1,14 @@
+{
+  "name": "fish-swagger",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node bin/dev-server.js",
+    "postinstall": "node bin/swagger-install.js"
+  },
+  "devDependencies": {
+    "fs-extra": "^5.0.0",
+    "swagger-ui-dist": "^3.10.0",
+    "express": "^4.16.2"
+  }
+}
