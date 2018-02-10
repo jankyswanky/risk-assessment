@@ -1,0 +1,18 @@
+{
+  "name": "fish-data-service",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "node ./bin/build.js"
+  },
+  "devDependencies": {
+    "archiver": "^2.1.1",
+    "aws-sdk": "^2.124.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "fs-extra": "^4.0.2",
+    "webpack": "^3.5.6"
+  }
+}
